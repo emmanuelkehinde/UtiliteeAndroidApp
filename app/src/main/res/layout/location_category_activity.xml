@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -335,3 +336,341 @@
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LocationMainActivity"
+    android:id="@+id/container"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/dept_layout"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:onClick="nextPage">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/school_black_72x72"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fd5353"
+                    android:layout_gravity="center"/>
+
+
+                <!--<ImageView-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:id="@+id/dept_img"-->
+                    <!--android:src="@drawable/home"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dept_text"
+                    android:layout_gravity="center"
+                    android:text="Department"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/lecture_layout"
+                android:layout_weight="1"
+                android:onClick="nextPage">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/lecture_img"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/store_mall_directory_black_72x72"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#01bea4"
+                    android:layout_gravity="center"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:id="@+id/lecture_img"-->
+                    <!--android:src="@drawable/home"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lecture_text"
+                    android:layout_gravity="center"
+                    android:text="Lecture Theatres"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/hostel_layout"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:onClick="nextPage">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/hostel_img"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/local_hotel_black_72x72"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#01c753"
+                    android:layout_gravity="center"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:id="@+id/hostel_img"-->
+                    <!--android:src="@drawable/home"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hostel_text"
+                    android:layout_gravity="center"
+                    android:text="Hostels"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/food_layout"
+                android:layout_weight="1"
+                android:onClick="nextPage">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/food_img"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/local_restaurant_black_72x72"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fd3d01"
+                    android:layout_gravity="center"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:id="@+id/food_img"-->
+                    <!--android:src="@drawable/home"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/food_text"
+                    android:layout_gravity="center"
+                    android:text="Food Canteens"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="-20dp">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/auditorium_layout"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:onClick="nextPage">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/auditorium_img"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/event_seat_black_72x72"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fdaa40"
+                    android:layout_gravity="center"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:id="@+id/auditorium_img"-->
+                    <!--android:src="@drawable/home"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/auditorium_text"
+                    android:layout_gravity="center"
+                    android:text="Auditorium"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/admin_layout"
+                android:layout_weight="1"
+                android:layout_marginLeft="-15dp"
+                android:onClick="nextPage">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/admin_img"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/local_library_black_72x72"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#5c9cb6"
+                    android:layout_gravity="center"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:id="@+id/admin_img"-->
+                    <!--android:src="@drawable/home"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/admin_text"
+                    android:layout_gravity="center"
+                    android:text="Administration"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-5dp">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/religious_layout"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:onClick="nextPage">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/religious_img"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/religious"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#00b7d3"
+                    android:layout_gravity="center"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:id="@+id/category_img"-->
+                    <!--android:src="@drawable/home"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/category_text"
+                    android:layout_gravity="center"
+                    android:text="Religious"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/miscellaneous_layout"
+                android:layout_weight="1"
+                android:layout_marginLeft="-5dp"
+                android:onClick="nextPage">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/miscellaneous_img"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/theaters_black_72x72"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#fd4180"
+                    android:layout_gravity="center"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="60dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:id="@+id/miscellaneous_img"-->
+                    <!--android:src="@drawable/home"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/miscellaneous_text"
+                    android:layout_gravity="center"
+                    android:text="Miscellaneous"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+>>>>>>> 93558684926287160cc8c7f84ba6444ff5f25e26

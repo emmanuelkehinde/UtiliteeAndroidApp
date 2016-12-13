@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -15,3 +16,22 @@
 
 
 </menu>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_game"-->
+        <!--android:title="Game"-->
+        <!--android:icon="@drawable/ic_action_gamepad"-->
+        <!--app:showAsAction="always" />-->
+
+
+</menu>
+>>>>>>> 93558684926287160cc8c7f84ba6444ff5f25e26

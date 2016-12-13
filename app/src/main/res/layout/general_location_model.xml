@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -175,3 +176,169 @@
     </ScrollView>
 
 </LinearLayout>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="12dp"
+    tools:context=".General_location_display">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameCard"
+        android:elevation="15dp"
+        android:layout_marginTop="4dp"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--android:background="#2a8a9b"-->
+            <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:background="##"-->
+                <!--android:padding="4dp"-->
+                <!-->-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Computer Science and Engineering"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="19sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="#22707e"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"
+                    android:textAlignment="center"
+                    android:id="@+id/name_text"/>
+            <!--</FrameLayout>-->
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/location_image"
+                    android:src="@drawable/bg3_new"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="15dp"
+        android:layout_marginTop="4dp"
+        android:id="@+id/locationCard"
+        android:layout_below="@+id/nameCard">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="4dp">
+                <!--android:background="#22707e"-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location:"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:textColor="#22707e"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/location_text"
+                    android:textSize="14sp"
+                    />
+            </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="15dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/locationCard">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description: "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:textColor="#22707e"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/description_text"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="15dp"
+        card_view:cardBackgroundColor="#fd5353"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:id="@+id/buttonViewMap"
+            android:text="View on Map"
+            android:background="#fd5353"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="4dp"/>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+>>>>>>> 93558684926287160cc8c7f84ba6444ff5f25e26

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#2a8a9b</color>
@@ -6,3 +7,13 @@
 
     <color name="black_overlay">#2a8a9b</color>
 </resources>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2a8a9b</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ef971b</color>
+
+    <color name="black_overlay">#2a8a9b</color>
+</resources>
+>>>>>>> 93558684926287160cc8c7f84ba6444ff5f25e26

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView
     android:layout_width="match_parent"
@@ -122,4 +123,130 @@
             <!--android:id="@+id/model_longitude"/>-->
     <!--</LinearLayout>-->
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="8dp"
+    android:elevation="15dp"
+    android:layout_margin="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/model_image"
+            android:src="@drawable/home"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Science and Engineering"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="82dp"
+            android:paddingTop="10dp"
+            android:id="@+id/model_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/model_capacity"
+            android:layout_below="@+id/model_name"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:text="Capacity"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="82dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/model_location"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/model_description"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/model_latitude"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/model_longitude"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:orientation="horizontal" android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content" android:layout_marginTop="10dp">-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:id="@+id/model_image"-->
+        <!--android:src="@drawable/home"-->
+        <!--android:layout_weight="0.8"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!-->-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Computer Science and Engineering"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:id="@+id/model_name"-->
+            <!--android:layout_marginBottom="12dp"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textStyle="italic"-->
+            <!--android:text=""-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:id="@+id/model_location"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:id="@+id/model_description"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:id="@+id/model_latitude"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:id="@+id/model_longitude"/>-->
+    <!--</LinearLayout>-->
+
+>>>>>>> 93558684926287160cc8c7f84ba6444ff5f25e26
 <!--</LinearLayout>-->

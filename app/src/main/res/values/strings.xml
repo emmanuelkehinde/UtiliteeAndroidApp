@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
     <string name="app_name">Utilitee</string>
 
@@ -18,3 +19,25 @@
     <string name="title_activity_fire_main">FireMainActivity</string>
 
 </resources>
+=======
+<resources>
+    <string name="app_name">Students\' Companion</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_splash1">splash1</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_splash2">splash2</string>
+    <string name="title_activity_fire_main">FireMainActivity</string>
+
+</resources>
+>>>>>>> 93558684926287160cc8c7f84ba6444ff5f25e26

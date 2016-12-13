@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -24,4 +25,32 @@
         android:layout_marginBottom="10dp"
         android:layout_marginTop="-10dp"
         />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LocationMainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Search"
+        android:id="@+id/search_text"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/search_button"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/search_text"
+        android:text="Search"
+        android:background="#2a8a9b"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="-10dp"
+        />
+>>>>>>> 93558684926287160cc8c7f84ba6444ff5f25e26
 </RelativeLayout>
